@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 680" fill="none">
+  <defs>
+    <linearGradient id="background" x1="74" y1="24" x2="640" y2="656" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171717"/>
+      <stop offset="1" stop-color="#292524"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="302" y1="174" x2="442" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity=".96"/>
+      <stop offset="1" stop-color="#FED7AA" stop-opacity=".58"/>
+    </linearGradient>
+    <linearGradient id="liquid" x1="360" y1="363" x2="360" y2="507" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <filter id="shadow" x="146" y="106" width="428" height="500" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+  </defs>
+  <rect width="720" height="680" rx="40" fill="url(#background)"/>
+  <circle cx="577" cy="142" r="95" fill="#60A5FA" fill-opacity=".13"/>
+  <circle cx="125" cy="524" r="128" fill="#3B82F6" fill-opacity=".1"/>
+  <path d="M66 547h588" stroke="#FED7AA" stroke-opacity=".2" stroke-width="2"/>
+  <path d="M103 582h514" stroke="#FED7AA" stroke-opacity=".13" stroke-width="2"/>
+  <ellipse cx="360" cy="550" rx="172" ry="28" fill="#020617" fill-opacity=".24" filter="url(#shadow)"/>
+  <rect x="310" y="134" width="100" height="52" rx="14" fill="#FFFFFF"/>
+  <path d="M326 181h68v33c0 12 4 24 11 34l76 108c9 12 14 27 14 42v91c0 21-17 38-38 38H263c-21 0-38-17-38-38v-91c0-15 5-30 14-42l76-108c7-10 11-22 11-34v-33Z" fill="url(#glass)" stroke="#FFF7ED" stroke-width="8"/>
+  <path d="M267 365h186l56 79v48c0 20-16 36-36 36H267c-20 0-36-16-36-36v-48l36-79Z" fill="url(#liquid)" fill-opacity=".92"/>
+  <path d="M276 394c29-16 57 16 86 0s57 16 86 0 43-3 53 3" stroke="#FFF7ED" stroke-opacity=".85" stroke-width="7" stroke-linecap="round"/>
+  <path d="M311 225h98M289 259h142" stroke="#FFFFFF" stroke-opacity=".72" stroke-width="6" stroke-linecap="round"/>
+  <path d="M280 440h18m-18 25h18m-18 25h18" stroke="#FFF7ED" stroke-opacity=".88" stroke-width="5" stroke-linecap="round"/>
+  <rect x="147" y="268" width="78" height="160" rx="20" fill="#FFFFFF" fill-opacity=".96"/>
+  <rect x="166" y="236" width="40" height="42" rx="10" fill="#FFEDD5"/>
+  <path d="M157 354h58v54a10 10 0 0 1-10 10h-38a10 10 0 0 1-10-10v-54Z" fill="#3B82F6"/>
+  <path d="M166 375c10-8 20 8 30 0s15 0 19 3" stroke="#FFF7ED" stroke-width="4" stroke-linecap="round"/>
+  <rect x="497" y="298" width="70" height="135" rx="18" fill="#FFFFFF" fill-opacity=".96"/>
+  <rect x="512" y="270" width="40" height="38" rx="10" fill="#FFEDD5"/>
+  <path d="M505 365h54v48a9 9 0 0 1-9 9h-36a9 9 0 0 1-9-9v-48Z" fill="#60A5FA"/>
+  <path d="M513 383c9-7 18 7 27 0s14 0 18 3" stroke="#FFF7ED" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="198" cy="189" r="9" fill="#93C5FD"/>
+  <circle cx="540" cy="210" r="13" fill="#60A5FA"/>
+  <path d="M120 159h62m-31-31v62M550 510h48m-24-24v48" stroke="#FFEDD5" stroke-opacity=".82" stroke-width="5" stroke-linecap="round"/>
+  <text x="360" y="610" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">MALAK LAB SCIENCE HUB</text>
+  <text x="360" y="642" fill="#FED7AA" font-family="Arial, sans-serif" font-size="15" text-anchor="middle">Care • Accuracy • Community</text>
+</svg>
